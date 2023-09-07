@@ -1,0 +1,430 @@
+{
+	"info": {
+		"_postman_id": "23d98ec0-c494-4e35-af22-dc05c083a19a",
+		"name": "HumanFactors",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12505539"
+	},
+	"item": [
+		{
+			"name": "testConnect",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:5000/",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testLogin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "QUINN",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "password123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:5000/login",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getprofile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:5000/getuserprofile?username=JOSEPH",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"getuserprofile"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "JOSEPH"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateuser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "foreground",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "background",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "pronouns",
+							"value": "he/his",
+							"type": "text"
+						},
+						{
+							"key": "languages",
+							"value": "EN",
+							"type": "text"
+						},
+						{
+							"key": "flairs",
+							"value": "Streamer",
+							"type": "text"
+						},
+						{
+							"key": "blurp",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "weekday-days",
+							"value": "0,1,2,3,4",
+							"type": "text"
+						},
+						{
+							"key": "weekday-times",
+							"value": "0,1,2",
+							"type": "text"
+						},
+						{
+							"key": "weekend-days",
+							"value": "5,6",
+							"type": "text"
+						},
+						{
+							"key": "weekend-times",
+							"value": "0,1,2",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "QUINN",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:5000/updateuser",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"updateuser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateagming",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "communication-method",
+							"value": "voice",
+							"type": "text"
+						},
+						{
+							"key": "heat-level",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "try-hard-level",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "valorant-rank",
+							"value": "radiant",
+							"type": "text"
+						},
+						{
+							"key": "valorant-role",
+							"value": "controller",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "JOSEPH",
+							"type": "text"
+						},
+						{
+							"key": "flairs",
+							"value": "veteran",
+							"type": "text"
+						},
+						{
+							"key": "availability-weekdays",
+							"value": "evenings",
+							"type": "text"
+						},
+						{
+							"key": "availability-weekends",
+							"value": "afternoon",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:5000/updateagming",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"updateagming"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getsecurityquestion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:5000/getsecurityquestion?username=QUINN",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"getsecurityquestion"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "QUINN"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "resetpassword",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "QUINN",
+							"type": "text"
+						},
+						{
+							"key": "newpassword",
+							"value": "password123",
+							"type": "text"
+						},
+						{
+							"key": "securityanswer",
+							"value": "blue",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:5000/resetpassword",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"resetpassword"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getuserscores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:5000/getuserscores?username=JOSEPH",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"getuserscores"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "JOSEPH"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addmatch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:5000/addmatch?username=JOSEPH&match=QUINN",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"addmatch"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "JOSEPH"
+						},
+						{
+							"key": "match",
+							"value": "QUINN"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletematch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:5000/deletematch?username=JOSEPH&match=QUINN",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"deletematch"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "JOSEPH"
+						},
+						{
+							"key": "match",
+							"value": "QUINN"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getmatches",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:5000/getmatches?username=QUINN",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"getmatches"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "QUINN"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
