@@ -1,29 +1,32 @@
-# Human-Factors-Project
+# Valorant Teammate Matcher
 
-Project Description: We are helping to solve the issue of negative experiences in online team-based gaming caused by bad teammates, specifically within the online team-based FPS Valorant. We are hoping to reduce the level of harassment that occurs in online interactions and create connections that otherwise would not have existed between Valorant players.
+## Project Description
 
-Creators: 
-Asten Fallavollita, 
-Noah Ibarra, 
-Ian Martinez, 
-Quinn Templeton
+Valorant Teammate Matcher is a project aimed at improving the online team-based gaming experience in Valorant by addressing the issue of negative interactions with teammates. We aim to reduce harassment and foster positive connections among Valorant players.
 
-Roles: 
-Asten: Product Manager, Designer
-Noah: Backend
-Quinn: Backend
-Ian: Frontend
+### Creators
 
-Methods:
+- Asten Fallavollita (Product Manager, Designer)
+- Noah Ibarra (Backend Developer)
+- Quinn Templeton (Backend Developer)
+- Ian Martinez (Frontend Developer)
 
-Google Forms: was crucial in collecting survey information and data to determine some of our decisions for the app.
-Uizard / Figma: helped our prototype phase to fully flesh-out our ideas and visualize the desired final result.
-Our Matching Algorithm, which took inspiration from the popular dating app Tinder’s matching algorithm to determine a compatibility score between two users. This algorithm facilitated the personalization of the user experience.
-Flask: was used to create endpoints and connect to the frontend and the server.
-Snowflake: was used to host our database so that we could collect the user information and send it to the backend / frontend when needed. 
-Postman: used to help test our API’s made in Flask.
-React Native: open-source framework to create the application.
-TypeScript: also used in the front end.
+## Features and Methods
 
+- **Google Forms:** We utilized Google Forms to collect survey information and data, which informed our decision-making process.
+
+- **Prototyping with Uizard / Figma:** We used tools like Uizard and Figma during the prototype phase to visualize and refine our ideas, ensuring a clear vision of the final product.
+
+- **Matching Algorithm:** Our matching algorithm draws inspiration from popular dating apps like Tinder. It calculates a compatibility score between two users, enhancing the personalization of the user experience.
+
+- **Flask:** We employed Flask to create endpoints and establish connections between the frontend and the server.
+
+- **Snowflake:** Our database, hosted on Snowflake, enables us to collect user information and facilitate data communication between the backend and frontend as needed.
+
+- **Postman:** Postman was instrumental in testing the APIs we built with Flask, ensuring their functionality and reliability.
+
+- **React Native:** We leveraged the open-source React Native framework to develop our application.
+
+- **TypeScript:** TypeScript was used extensively in the frontend development.
 
 
